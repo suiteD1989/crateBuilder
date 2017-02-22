@@ -1,7 +1,7 @@
   var app = angular.module('exampleApp', ['spotify', 'ui.bootstrap']);
       app.config(function (SpotifyProvider) {
-        SpotifyProvider.setClientId('4295e67eebcb438f830d8ff9cf44e553');
-        SpotifyProvider.setRedirectUri('http://localhost/angular-spotify/crate-builder/callback.html');
+        SpotifyProvider.setClientId('');
+        SpotifyProvider.setRedirectUri('');
         SpotifyProvider.setScope('playlist-read-private');
     });
 
